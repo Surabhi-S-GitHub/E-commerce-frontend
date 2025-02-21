@@ -363,9 +363,10 @@ export default function ProductDetails() {
                     container
                     justifyContent="center"
                     alignItems="center"
+                    item
                     gap={2}
                   >
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="p-0">Excellent</p>
                     </Grid>
                     <Grid xs={7}>
@@ -377,7 +378,7 @@ export default function ProductDetails() {
                         color="success"
                       />
                     </Grid>
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="opacity-50 p-2">19259</p>
                     </Grid>
                   </Grid>
@@ -389,7 +390,7 @@ export default function ProductDetails() {
                     alignItems="center"
                     gap={2}
                   >
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="p-0">Very Good</p>
                     </Grid>
                     <Grid xs={7}>
@@ -401,7 +402,7 @@ export default function ProductDetails() {
                         color="success"
                       />
                     </Grid>
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="opacity-50 p-2">19259</p>
                     </Grid>
                   </Grid>
@@ -413,7 +414,7 @@ export default function ProductDetails() {
                     alignItems="center"
                     gap={2}
                   >
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="p-0">Good</p>
                     </Grid>
                     <Grid xs={7}>
@@ -425,7 +426,7 @@ export default function ProductDetails() {
                         color="orange"
                       />
                     </Grid>
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="opacity-50 p-2">19259</p>
                     </Grid>
                   </Grid>
@@ -435,12 +436,13 @@ export default function ProductDetails() {
                     container
                     justifyContent="center"
                     alignItems="center"
+                    item
                     gap={2}
                   >
                     <Grid xs={2}>
                       <p className="p-0">Avarage</p>
                     </Grid>
-                    <Grid xs={7}>
+                    <Grid item xs={7}>
                       <LinearProgress
                         className=""
                         sx={{
@@ -456,7 +458,7 @@ export default function ProductDetails() {
                         color="success"
                       />
                     </Grid>
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="opacity-50 p-2">19259</p>
                     </Grid>
                   </Grid>
@@ -466,12 +468,13 @@ export default function ProductDetails() {
                     container
                     justifyContent="center"
                     alignItems="center"
+                    item
                     gap={2}
                   >
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="p-0">Poor</p>
                     </Grid>
-                    <Grid xs={7}>
+                    <Grid item xs={7}>
                       <LinearProgress
                         className=""
                         sx={{ bgcolor: "#d0d0d0", borderRadius: 4, height: 7 }}
@@ -480,7 +483,7 @@ export default function ProductDetails() {
                         color="error"
                       />
                     </Grid>
-                    <Grid xs={2}>
+                    <Grid item xs={2}>
                       <p className="opacity-50 p-2">19259</p>
                     </Grid>
                   </Grid>
