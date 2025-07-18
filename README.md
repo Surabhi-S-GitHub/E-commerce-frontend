@@ -30,38 +30,27 @@ State & Styling	React Context / CSS / Styled Components
 Backend
 Clone and navigate:
 
-bash
-Copy
-Edit
 git clone https://github.com/Surabhi-S-GitHub/E-commerce-backend.git
 cd E-commerce-backend
 Configure MySQL credentials in application.properties.
 
 Run:
 
-bash
-Copy
-Edit
 mvn spring-boot:run
+
 Frontend
 Clone and navigate:
 
-bash
-Copy
-Edit
 git clone https://github.com/Surabhi-S-GitHub/E-commerce-frontend.git
+
 cd E-commerce-frontend
+
 Install dependencies:
 
-bash
-Copy
-Edit
 npm install
+
 Run frontend:
 
-bash
-Copy
-Edit
 npm start
 Visit http://localhost:3000 in your browser.
 
@@ -90,13 +79,7 @@ GitHub: Surabhi-S-GitHub
 
 🎓 Building projects to showcase full-stack web development skills
 
-📝 License
-This project is licensed under the MIT License – see the LICENSE file for details.
-
-👷 Future Enhancements
-🔑 User Authentication (login/register)
-
-💳 Payment integration (Stripe/Razorpay)
+Future Enhancements: 
 
 📦 Admin dashboard for product/order management
 
